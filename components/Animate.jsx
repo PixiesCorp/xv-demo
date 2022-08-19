@@ -124,7 +124,7 @@ export default function Animate() {
                   multiline
                   maxRows={4}
                   label='Mensaje'
-                  placeholder='Envianos tus buenos deseos!....'
+                  placeholder='Enviame tus buenos deseos!....'
                   size='small'
                   InputLabelProps={{
                     style: textFieldInputLabelStyle,
