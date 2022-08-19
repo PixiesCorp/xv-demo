@@ -1,6 +1,6 @@
 /* Aquí definimos las Custom properties */
 :root {
-  --negro: #000;
+  --negro: #fff;
   /* Tipografía */
   --tipo-principal: Helvetica, Arial, sans-serif;
   --tipo-secundaria: Verdana;
