@@ -1,0 +1,35 @@
+.homeContainMusic {
+  width: 100vw;
+  height: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 12em;
+}
+
+.homeMusicIcon {
+  font-size: 4em;
+}
+
+/* iphone 8 */
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  
+	.homeContainMusic {
+    bottom: 11em;
+  }
+
+  .homeMusicIcon {
+    font-size: 3em;
+  }
+}
+
+/* iphone X */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+  .homeContainMusic {
+    bottom: 11em;
+  }
+}

@@ -1,0 +1,97 @@
+.asistContain {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #26458D;
+}
+
+.asistTitle {
+  text-align: center;
+  font-size: 3em;
+  line-height: 1em;
+  letter-spacing: 0.15em;
+  padding: 1em;
+  font-family: "Sacramento", cursive;
+  font-weight: 500;
+}
+
+.asistContainImg {
+  width: 50%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.dress {
+  width: 6em;
+  align-self: flex-end;
+}
+
+.suit {
+  width: 6em;
+}
+
+.typeEvent {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 2em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.info {
+  width: 100vw;
+  height: 4em;
+  font-size: 1.3em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.confirm {
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 2.7em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fill {
+  height: 5em;
+}
+
+/* iphone 8 */
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .fill {
+    display: block;
+    height: 5em;
+  }
+}
+
+/* iphone X */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .fill {
+    display: block;
+    height: 5em;
+  }
+}
+
+/* Iphone 13 */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .fill {
+    display: block;
+    height: 5em;
+  }
+}
+/* Iphone 8*/
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+  .fill {
+    display: block;
+    height: 5em;
+  }
+}
