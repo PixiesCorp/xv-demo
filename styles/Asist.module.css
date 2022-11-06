@@ -62,6 +62,14 @@
   height: 5em;
 }
 
+@media screen and (min-width: 1200px) {
+  .asistContainImg {
+    width: 20%;
+  }
+
+  
+}
+
 /* iphone 8 */
 @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   .fill {

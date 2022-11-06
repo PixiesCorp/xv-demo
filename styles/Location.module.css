@@ -60,3 +60,13 @@
 .locationFill {
   height: 7em;
 }
+
+@media screen and (min-width: 1200px) {
+  .locationMap {
+    width: 45%;
+  }
+
+  .locationBtn {
+    width: 15%;
+  }
+}
