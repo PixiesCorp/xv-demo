@@ -14,6 +14,18 @@
   font-size: 4em;
 }
 
+@media screen and (min-width: 1200px) {
+  .homeContainMusic {
+    width: 50%;
+    right: 0em;
+    bottom: 16em;
+  }
+
+  .homeMusicIcon {
+    cursor: pointer;
+  }
+}
+
 /* iphone 8 */
 @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   

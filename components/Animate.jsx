@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import styles from "../styles/Animate.module.css";
 import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { TextField, styled } from "@mui/material";
 
 const CssTextField = styled(TextField, {
@@ -180,6 +181,7 @@ export default function Animate() {
         className={styles.btn}
       >
         CONFIRMAR
+        <IoLogoWhatsapp />
       </motion.button>
     </div>
   );

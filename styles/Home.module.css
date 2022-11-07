@@ -50,7 +50,13 @@
   }
 
   .homeContainTitle {
-    top: 10em;
+    width: 50%;
+    top: 15em;
+    right: 0em;
+  }
+
+  .homeContainMusic {
+    width: 50%;
   }
 }
 

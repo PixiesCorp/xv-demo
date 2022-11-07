@@ -63,10 +63,14 @@
 }
 
 @media screen and (min-width: 1200px) {
+
   .asistContainImg {
     width: 20%;
   }
 
+  .confirm {
+    margin-top: 2em;
+  }
   
 }
 
