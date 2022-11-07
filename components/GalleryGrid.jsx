@@ -5,7 +5,6 @@ import boda2 from "../public/images/xv1.jpg";
 import boda3 from "../public/images/xv2.jpg";
 import boda4 from "../public/images/xv3.jpg";
 import boda5 from "../public/images/xv4.jpg";
-import boda6 from "../public/images/xv5.jpg";
 import boda7 from "../public/images/xv6.jpg";
 import boda8 from "../public/images/xv7.jpg";
 import boda9 from "../public/images/xv8.jpg";
@@ -23,14 +22,12 @@ export default function Gallery() {
     <div className={styles.gallery}>
       <h1 className={styles.galleryTitle}>Galeria</h1>
       <div className={styles.galleryContain}>
-          <Image src={boda1} alt="" className={styles.photo} priority={true} layout="responsive"/>
+          <Image src={boda8} alt="" className={styles.photo} priority={true} layout="responsive"/>
           <Image src={boda4} alt="" className={styles.photo} layout="responsive"/>
           <Image src={boda3} alt="" className={styles.photo} layout="responsive"/>
           <Image src={boda5} alt="" className={styles.photo} layout="responsive"/>
-          <Image src={boda6} alt="" className={styles.photo} layout="responsive"/>
           <Image src={boda2} alt="" className={styles.photo} layout="responsive"/>
           <Image src={boda7} alt="" className={styles.photo} layout="responsive"/>
-          <Image src={boda8} alt="" className={styles.photo} layout="responsive"/>
           <Image src={boda9} alt="" className={styles.photo} layout="responsive"/>
           <Image src={boda10} alt="" className={styles.photo} layout="responsive"/>
           <Image src={boda11} alt="" className={styles.photo} layout="responsive"/>
